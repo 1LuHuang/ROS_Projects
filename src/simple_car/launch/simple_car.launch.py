@@ -38,3 +38,16 @@ def generate_launch_description():
             output='screen'
         )
     ])
+
+
+# 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
+# ros2 launch simple_car simple_car.launch.py
+# source install/setup.bash
+#  colcon build
+# gz sim ~/workspace/Desktop/ros2_ws/src/simple_car/worlds/simple_world.sdf
+
+
+# git status
+# git add .
+# git commit -m "add simple_car.launch.py"
+# git push  -u origin main

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d46a48-32e4-4e5a-aa44-f8c98e0bb6ad" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/launch/simple_car.launch.py" beforeDir="false" afterPath="$PROJECT_DIR$/launch/simple_car.launch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    <list default="true" id="d2d66f9a-7433-430e-b660-2929cde49c00" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/src/simple_car/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple_car/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_car/launch/simple_car.launch.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple_car/launch/simple_car.launch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_car/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple_car/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -28,10 +29,10 @@
     "accountId": "17a9ecba-6968-469c-b07a-8455405bdc74"
   }
 }]]></component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="3DZXkKwDPiezABZiB3x6UscjEw7" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3DcSjCU5g9TWGdpiebKWzbkB2Wc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.plot_error.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -54,11 +56,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="f1d46a48-32e4-4e5a-aa44-f8c98e0bb6ad" name="更改" comment="" />
-      <created>1778490708999</created>
+      <changelist id="d2d66f9a-7433-430e-b660-2929cde49c00" name="更改" comment="" />
+      <created>1778579997524</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1778490708999</updated>
+      <updated>1778579997524</updated>
     </task>
     <servers />
   </component>
