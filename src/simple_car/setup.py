@@ -13,6 +13,8 @@ setup(
     ('share/' + package_name + '/launch', ['launch/simple_car.launch.py']),
     ('share/' + package_name + '/worlds', ['worlds/simple_world.sdf']),
     ('share/' + package_name + '/models', ['models/simple_model.sdf']),
+    ('share/' + package_name + '/worlds', ['worlds/world_withObs.sdf']),
+    ('share/' + package_name + '/launch', ['launch/simple_car_localPlan.launch.py']),
 ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -32,6 +34,8 @@ setup(
             'actual_path_node = simple_car.traj_sim.actual_path_node:main',
             'error_logger_node = simple_car.traj_sim.error_logger_node:main',
             'pid_tracker_node = simple_car.traj_sim.pid_tracker_node:main',
+            "a_star_node = simple_car_localplan.traj_sim.path_publisher_node:main",
+            'pure_pursuit_node_AStar = simple_car_localplan.traj_sim.pure_pursuit_node:main',
         ],
     },
 )
