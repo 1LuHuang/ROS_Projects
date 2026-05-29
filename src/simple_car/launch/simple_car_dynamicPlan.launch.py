@@ -3,7 +3,7 @@ from launch.actions import ExecuteProcess, TimerAction
 
 
 def generate_launch_description():
-    world = '/home/yiluhuang/workspace/Desktop/ros2_ws/src/simple_car/worlds/world_withObs.sdf'
+    world = '/home/yiluhuang/workspace/Desktop/ros2_ws/src/simple_car/worlds/world_dyn_Obs.sdf'
     model = '/home/yiluhuang/workspace/Desktop/ros2_ws/src/simple_car/models/simple_model.sdf'
 
     return LaunchDescription([
@@ -39,7 +39,3 @@ def generate_launch_description():
             output='screen'
         )
     ])
-
-# ros2 run ros_gz_bridge parameter_bridge /odom@nav_msgs/msg/Odometry@gz.msgs.Odometry 
-# if simple_car always turns around, try to put the order above directly.
-
